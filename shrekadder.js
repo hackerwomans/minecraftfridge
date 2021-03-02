@@ -31,3 +31,5 @@ document.addEventListener("click", function(event){
   placeImage(event.pageX, event.pageY)
 
 })
+
+//end of file
