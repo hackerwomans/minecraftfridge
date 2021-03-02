@@ -1,0 +1,168 @@
+html, body {
+     cursor: url(https://i.ibb.co/MVTN295/cursor.png), auto !important;
+   }
+
+
+
+
+/* Importing the peepo font */
+@font-face {
+    font-family: "Peepo";
+    font-weight: 900;
+    src: url(Peepo.ttf) format("truetype");
+}
+p.customfont {
+  font-family: "Peepo", peepo;
+}
+
+/* Setting body font */
+body {
+  font-family: "Peepo";
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 1.30;
+  color: black;
+}
+
+/* Setting body font */
+p {
+  font-family: "Peepo";
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 1.50;
+  position: fixed;
+  top: 380px;
+  right: 300px;
+  left: 54px;
+  text-align: justify;
+  color: black;
+}
+
+/* overriding highlight text selection color */
+::selection {
+    color: #0000ff;
+  background: #ffff00;
+}
+/* h1 text settings */
+h1 {
+position: fixed;
+top: -50px;
+right: 48px;
+font-size: 105px;
+color: black;
+line-height: 95%;
+text-align: right;
+text-decoration: none;
+
+}
+
+/* h2 text settings */
+h2 {
+position: fixed;
+top: 320px;
+right: 54px;
+font-size: 20px;
+color: black;
+text-align: right;
+text-decoration: none;
+
+}
+/* fridge text settings */
+#left a {
+  position: fixed;
+  top: -12px;
+  right: 888px;
+  font-size: 125px;
+  color: black;
+  text-decoration: none;
+}
+
+/* read me text settings */
+#right a {
+  position: fixed;
+  top: 28px;
+  right: 50px;
+  font-size: 32px;
+  color: black;
+  text-decoration: none;
+}
+
+/* change hover colour */
+#right a:hover {
+  position: fixed;
+  top: 28px;
+  right: 50px;
+  font-size: 32px;
+  color: #0000ff;
+  text-decoration: none;
+}
+
+/* about text settings */
+#right2 a {
+  position: fixed;
+  top: 28px;
+  right: 210px;
+  font-size: 32px;
+  color: black;
+  text-decoration: none;
+}
+
+/* change hover colour */
+#right2 a:hover {
+  position: fixed;
+  top: 28px;
+  right: 210px;
+  font-size: 32px;
+  color: #0000ff;
+  text-decoration: none;
+}
+
+/* reset text settings */
+#bot a {
+  position: fixed;
+  top: 135px;
+  right: 1154px;
+  font-size: 32px;
+  color: black;
+  text-decoration: none;
+}
+
+/* change hover colour */
+#bot a:hover {
+  position: fixed;
+  top: 135px;
+  right: 1154px;
+  font-size: 32px;
+  color: #0000ff;
+  text-decoration: none;
+}
+
+/* black text settings */
+#back a {
+  position: fixed;
+  top: 30px;
+  right: 1154px;
+  font-size: 32px;
+  color: black;
+  text-decoration: none;
+}
+
+/* change hover colour */
+#back a:hover {
+  position: fixed;
+  top: 30px;
+  right: 1154px;
+  font-size: 32px;
+  color: #0000ff;
+  text-decoration: none;
+}
+/* readme stuff */
+
+
+h1, a {
+  mix-blend-mode: difference;
+}
+
+canvas {
+  vertical-align: bottom;
+}

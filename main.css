@@ -1,0 +1,7 @@
+/* Positions and sizing for food images */
+img {
+  position: fixed;
+  top: 500px;
+  left: 400px
+  transform: translate(-50%, -50%) scale(0.5, 0.5);
+}
