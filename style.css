@@ -31,9 +31,9 @@ p {
   font-size: 20px;
   line-height: 1.50;
   position: fixed;
-  top: 380px;
-  right: 300px;
-  left: 54px;
+  top: 53%;
+  left: 4%;
+  right: 30%;
   text-align: justify;
   color: black;
 }
@@ -46,8 +46,8 @@ p {
 /* h1 text settings */
 h1 {
 position: fixed;
-top: -50px;
-right: 48px;
+top: -6%;
+right: 4%;
 font-size: 105px;
 color: black;
 line-height: 95%;
@@ -60,7 +60,7 @@ text-decoration: none;
 h2 {
 position: fixed;
 top: 320px;
-right: 54px;
+right: 5%;
 font-size: 20px;
 color: black;
 text-align: right;
@@ -70,8 +70,8 @@ text-decoration: none;
 /* fridge text settings */
 #left a {
   position: fixed;
-  top: -12px;
-  right: 888px;
+  top: -1%;
+  left: 3%;
   font-size: 125px;
   color: black;
   text-decoration: none;
@@ -121,7 +121,7 @@ text-decoration: none;
 #bot a {
   position: fixed;
   top: 135px;
-  right: 1154px;
+  left: 3%;
   font-size: 32px;
   color: black;
   text-decoration: none;
@@ -140,8 +140,8 @@ text-decoration: none;
 /* black text settings */
 #back a {
   position: fixed;
-  top: 30px;
-  right: 1154px;
+  top: 5%;
+  left: 4%;
   font-size: 32px;
   color: black;
   text-decoration: none;
@@ -150,8 +150,8 @@ text-decoration: none;
 /* change hover colour */
 #back a:hover {
   position: fixed;
-  top: 30px;
-  right: 1154px;
+  top: 5%;
+  left: 4%;
   font-size: 32px;
   color: #0000ff;
   text-decoration: none;
