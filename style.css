@@ -8,7 +8,7 @@ html, body {
 /* Importing the peepo font */
 @font-face {
     font-family: "Peepo";
-    font-weight: 900;
+    font-weight: 100;
     src: url(Peepo.ttf) format("truetype");
 }
 p.customfont {
@@ -18,7 +18,7 @@ p.customfont {
 /* Setting body font */
 body {
   font-family: "Peepo";
-  font-weight: 900;
+  font-weight: 100;
   font-size: 36px;
   line-height: 1.30;
   color: black;
@@ -27,7 +27,7 @@ body {
 /* Setting body font */
 p {
   font-family: "Peepo";
-  font-weight: 900;
+  font-weight: 100;
   font-size: 20px;
   line-height: 1.50;
   position: fixed;
@@ -48,6 +48,7 @@ h1 {
 position: fixed;
 top: -6%;
 right: 4%;
+font-weight: 100;
 font-size: 105px;
 color: black;
 line-height: 95%;
@@ -61,6 +62,7 @@ h2 {
 position: fixed;
 top: 320px;
 right: 5%;
+font-weight: 100;
 font-size: 20px;
 color: black;
 text-align: right;
@@ -72,6 +74,7 @@ text-decoration: none;
   position: fixed;
   top: -1%;
   left: 3%;
+      font-weight: 100;
   font-size: 125px;
   color: black;
   text-decoration: none;
@@ -82,6 +85,7 @@ text-decoration: none;
   position: fixed;
   top: 28px;
   right: 50px;
+      font-weight: 100;
   font-size: 32px;
   color: black;
   text-decoration: none;
@@ -92,6 +96,7 @@ text-decoration: none;
   position: fixed;
   top: 28px;
   right: 50px;
+      font-weight: 100;
   font-size: 32px;
   color: #0000ff;
   text-decoration: none;
@@ -102,6 +107,7 @@ text-decoration: none;
   position: fixed;
   top: 28px;
   right: 210px;
+      font-weight: 100;
   font-size: 32px;
   color: black;
   text-decoration: none;
@@ -112,6 +118,7 @@ text-decoration: none;
   position: fixed;
   top: 28px;
   right: 210px;
+      font-weight: 100;
   font-size: 32px;
   color: #0000ff;
   text-decoration: none;
@@ -122,6 +129,7 @@ text-decoration: none;
   position: fixed;
   top: 135px;
   left: 3%;
+      font-weight: 100;
   font-size: 32px;
   color: black;
   text-decoration: none;
@@ -132,6 +140,7 @@ text-decoration: none;
   position: fixed;
   top: 135px;
   right: 1154px;
+      font-weight: 100;
   font-size: 32px;
   color: #0000ff;
   text-decoration: none;
@@ -142,6 +151,7 @@ text-decoration: none;
   position: fixed;
   top: 5%;
   left: 4%;
+      font-weight: 100;
   font-size: 32px;
   color: black;
   text-decoration: none;
@@ -152,6 +162,7 @@ text-decoration: none;
   position: fixed;
   top: 5%;
   left: 4%;
+      font-weight: 100;
   font-size: 32px;
   color: #0000ff;
   text-decoration: none;
