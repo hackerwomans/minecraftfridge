@@ -22,6 +22,7 @@ body {
   font-size: 36px;
   line-height: 1.30;
   color: black;
+
 }
 
 /* Setting body font */
@@ -36,6 +37,7 @@ p {
   right: 30%;
   text-align: justify;
   color: black;
+
 }
 
 /* overriding highlight text selection color */
@@ -167,7 +169,75 @@ text-decoration: none;
   color: #0000ff;
   text-decoration: none;
 }
-/* readme stuff */
+
+/* black text settings */
+#spotify a {
+  position: fixed;
+  top: 87%;
+  left: 4%;
+  font-weight: 100;
+  font-size: 20px;
+  color: #0000ff;
+  text-decoration: underline;
+}
+
+/* change hover colour */
+#spotify a:hover {
+  position: fixed;
+   top: 87%;
+  left: 4%;
+  font-weight: 100;
+  font-size: 20px;
+  color: black;
+  text-decoration: underline;
+}
+/************** STYLES FOR ABOUT PAGE ONLY ****************/
+
+/* h3 text settings, big blue hello text */
+
+h3 {
+position: fixed;
+top: -100%;
+right: 4%;
+font-weight: 100;
+font-size: 680px;
+line-height: 95%;
+letter-spacing: -21px;
+text-decoration: none;
+
+}
+
+/* exclaimation mark only */
+h4 {
+position: fixed;
+top: -138.5%;
+right: -7%;
+font-weight: 100;
+font-size: 680px;
+text-decoration: none;
+color: blue;
+
+}
+
+/* Setting body font */
+h6 {
+  font-family: "Peepo";
+  font-weight: 100;
+  font-size: 21px;
+  line-height: 2  ;
+  position: fixed;
+  bottom: 25%;
+  right: 40%;
+  text-align: right;
+  color: #0000ff;
+
+}
+
+/* highlight specific text, word only */
+mark {
+  background-color: #04f930;
+  color: black;
+}
 
 
 h1, a {
