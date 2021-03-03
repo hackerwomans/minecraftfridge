@@ -221,6 +221,17 @@ color: blue;
 
 }
 
+/* telling to click on fridge page */
+h5{
+position: fixed;
+bottom: 3%;
+left: 3%;
+font-weight: 100;
+font-size: 22px;
+color: black;
+text-decoration: underline;
+}
+
 /* Setting body font */
 h6 {
   font-family: "Peepo";
