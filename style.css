@@ -30,31 +30,34 @@ p {
   font-family: "Peepo";
   font-weight: 100;
   font-size: 20px;
-  line-height: 1.50;
+  line-height: 2;
   position: fixed;
-  top: 53%;
-  left: 4%;
-  right: 30%;
+  top: 4%;
+  left: 43%;
+  right: 5%;
   text-align: justify;
+  text-align-last: right;
   color: black;
 
 }
+
+
 
 /* overriding highlight text selection color */
 ::selection {
     color: #0000ff;
   background: #ffff00;
 }
-/* h1 text settings */
+/* h1 text settings, the link and happiness */
 h1 {
 position: fixed;
-top: -6%;
-right: 4%;
+bottom: -3%;
+left: 4%;
 font-weight: 100;
-font-size: 105px;
+font-size: 130px;
 color: black;
 line-height: 95%;
-text-align: right;
+text-align: left;
 text-decoration: none;
 
 }
@@ -62,12 +65,11 @@ text-decoration: none;
 /* h2 text settings */
 h2 {
 position: fixed;
-top: 320px;
-right: 5%;
+bottom: 407px;
+left: 4%;
 font-weight: 100;
-font-size: 20px;
+font-size: 17px;
 color: black;
-text-align: right;
 text-decoration: none;
 
 }
@@ -231,12 +233,6 @@ h6 {
   text-align: right;
   color: #0000ff;
 
-}
-
-/* highlight specific text, word only */
-mark {
-  background-color: #04f930;
-  color: black;
 }
 
 
